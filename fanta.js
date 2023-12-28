@@ -64,15 +64,10 @@ if (screenWidth < 600) {
     left: "100%",
   }, 'ca')
   
-  tl2.to("#orange2",{
+  tl2.from("#lemon3",{
     width:"24%",
     left: "33%",
     top: "236%"
-  }, 'ca')
-  tl2.to("#fanta",{
-    width:"35%",
-    top: "240%",
-    left: "33%",
   }, 'ca')
 } else if (screenWidth < 800) {
   var tl = gsap.timeline({scrollTrigger:{
